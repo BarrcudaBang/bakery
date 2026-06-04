@@ -1,0 +1,65 @@
+.brand {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-position: relative;
+  color: purple;
+  font-weight: bold;
+  text-shadow: 3px 3px 0px rgba(31, 31, 31, 0.437);
+}
+a {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(0, 255, 64);
+  text-decoration: underline;
+}
+header {
+  background: rgba(62, 1, 47, 0.601);
+  background-position: center;
+  background-border: 15px solid black;
+  border-radius: 10px;
+  text-position: center;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  padding: 1rem;
+}
+nav {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  gap: 5rem;
+}
+main {
+  flex-grow: 1;
+  border: 15px solid black;
+  border-radius: 15px;
+  background: rgba(136, 0, 255, 0.601);
+}
+ul {
+  color: hotpink;
+  list-style: square;
+  text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.66);
+  background: rgba(3, 74, 124, 0.601);
+  background-position: center;
+  background-border: 15px solid black;
+  border-radius: 10px;
+  gap: 5rem;
+}
+h1 {
+  font-family: sans-serif;
+  font-style: italic;
+  color: rgb(255, 0, 0);
+  text-shadow: 3px 0px 0px rgba(31, 31, 31, 0.437);
+  text-decoration: underline;
+}
+.testimonial {
+  font-family: serif;
+  font-size: 27px;
+  color: rgb(255, 238, 0);
+  text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.66);
+}
+p {
+  font-family: comic;
+  font-size: 15px;
+  color: rgb(0, 255, 110);
+  text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.66);
+}
